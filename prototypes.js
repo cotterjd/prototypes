@@ -1,5 +1,5 @@
 String.prototype.contains = function (str) {
-		return this.indexOf(str) !== -1	
+	return this.indexOf(str) !== -1	
 }
 String.prototype.formatCurrency = function () {
 	if (isNaN(this)) return this
